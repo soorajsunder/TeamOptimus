@@ -12,7 +12,7 @@
 
 Run("notepad.exe")
 WinWaitActive("Untitled - Notepad")
-Send("This is team optimus")
+Send("Hello! from team optimus")
 ; clicking close button
 WinClose("Untitled - Notepad")
 WinWaitActive("Notepad", "Save")
