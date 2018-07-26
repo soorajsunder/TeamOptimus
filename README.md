@@ -1,23 +1,4 @@
 # TeamOptimus
 Sample script for AutoIT
 
-#cs ----------------------------------------------------------------------------
-
- AutoIt Version: 3.3.14.5
- Author:         myName
-
- Script Function:
-	Template AutoIt script.
-
-#ce ----------------------------------------------------------------------------
-
-; Script Start
-
-Run("notepad.exe")
-WinWaitActive("Untitled - Notepad")
-Send("This is team optimus")
-; clicking close button
-WinClose("Untitled - Notepad")
-WinWaitActive("Notepad", "Save")
-; clicking dont save button
-Send("!n")
+Run the script and you'll see Notepad open, some text appear and then close!
